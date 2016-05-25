@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am a tech enthusiast with a deep passion for mobile and web software 
+
+developing
 
 ### More Information
 
