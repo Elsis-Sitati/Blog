@@ -19,6 +19,7 @@ Attach  an on Click Listener to a button
         android:onClick="goToNextActivity"
 
         />
+        
 Android studio will prompt you to create an OnClick Event Handler.Choose this option and specify what class you want that event handler to be generated. You will get a method like the one below on that activity class
 
     public void goToNextActivity(View view) {
