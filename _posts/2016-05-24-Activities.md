@@ -19,4 +19,19 @@ Attach  an on Click Listener to a button
         android:onClick="goToNextActivity"
 
         />
+Android studio will prompt you to create an OnClick Event Handler.Choose this option and specify what class you want that event handler to be generated. You will get a method like the one below on that activity class
 
+ public void goToNextActivity(View view) {
+        
+    }
+    
+The last step is to define an intent inside that method.
+
+public void goToNextActivity(View view) {
+        Intent intent =new Intent(getApplicationContext(),Images.class);
+        startActivity(intent);
+    }
+    
+This piece of code basically says "move from this class and go to the Images class"
+
+And we are done.You can now move to a different Activity once you click your button.
