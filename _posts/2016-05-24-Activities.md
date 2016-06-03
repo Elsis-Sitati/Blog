@@ -8,7 +8,7 @@ programming ie about page,contacts page etc.In the same way clicking to a button
 different page,clicking a button in android can direct you to a different activity.I am going to take you through
 the process of writing code that will enable you to move to a different activity in android.
 
-### Step 1
+
 Attach  an on Click Listener to a button 
 
     <Button
@@ -24,6 +24,7 @@ Android studio will prompt you to create an OnClick Event Handler.Choose this op
     public void goToNextActivity(View view) {
        
     }
+    
 The last step is to define an intent inside that method.
 
     public void goToNextActivity(View view) {
