@@ -22,7 +22,7 @@ you click okay your repository will be created online on github.
 6.You will notice that there is now a green arrow and a blue arrow on the menu bar.select the green arrow whenever you
 want to make a commit.Type your commit message and press the commit button.
 
-7. Whenever you want to push your code to your online github,go to the menu bar and select VCS.A drop down menu will appear
+7.Whenever you want to push your code to your online github,go to the menu bar and select VCS.A drop down menu will appear
 select the GIT option.
 
 8.Another drop drowm menu will appear.select push and specify what branch you want the code to be pushed to
