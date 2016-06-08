@@ -10,6 +10,7 @@ a Domain Name Service look up and translates elsissitati.com to an IP address.An
 has an IP address.The DNS basically says "hey elsissitati.com ,what IP adress have you been configured to?"It finds the server that has been configured to that address and the browser sends you there.When you connect to the server it gives back a response.The response is usually the file and the content type.The browser knows how to treat what response its being given
 by its content type.For example the index.html file will be loaded and the browser starts reading the file from top to 
 bottom.It pauses when it finds a request for an asset.An asset is another file that needs to be requested e.g css and js.
+
 A request usually contains two things,a header and a body.While a header is mandatory,it may or may not contain a post body.
 Post body is used when sending data.Responses also have headers and a post body.
 When a person for example types elsissitati.com,a request is made to the server.the server sends back an index.html file
