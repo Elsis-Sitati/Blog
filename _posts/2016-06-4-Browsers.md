@@ -18,6 +18,7 @@ the css reference in the <head> tag it is going to pause and make a request for 
 send a response containing the css file.The browser will then check how to display the html elements as defined by the css.
 It is good practise to put the css in the <head> tag to avoid a flash of unstyled content.This when a webpage loads and it is
 ugly at first and then it flickers into being beautiful.This is because your browser is first loading the elements in your 
+
 <body> tag and then loading the css to dictate how to display these elements later.It is best practise to put your scripts 
 before the closing </body> tag.This is to facilitate the browser to first load the page and then later load the scripts and 
 activate the script functionalities.This helps improve faster load times.Minifying the css and js also improves the load 
